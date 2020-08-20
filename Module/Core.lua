@@ -1,3 +1,0 @@
-hackBladeCore = {
-  RegisterCallback = callbacks.Register
-}
