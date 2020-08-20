@@ -26,7 +26,7 @@ local Networking = {
 }
 
 local TickInterval = 2 % 2
-callbacks.Register( "Draw", function()
+hackBladeCore.RegisterCallback( "Draw", function()
     TickInterval = globals.TickCount() % 2
     if TickInterval == 0 then
         for _, client in next, Networking.Clients do
